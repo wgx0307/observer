@@ -7,6 +7,10 @@ namespace Pay;
  * Date: 2020/4/19
  * Time: 23:29
  */
+require_once 'OrderNotice.php';
+require_once 'PayAfter.php';
+require_once 'Email.php';
+require_once 'Phone.php';
 
 use OrderNotice\OrderNotice;
 use PayAfter\PayAfter;
